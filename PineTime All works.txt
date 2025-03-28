@@ -1,0 +1,27 @@
+https://randomnerdtutorials.com/esp32-erase-flash-memory/
+
+python -m esptool --chip esp32 erase_flash
+
+
+
+
+https://github.com/InfiniTimeOrg/InfiniTime/blob/main/doc/SWD.md
+
+
+Then, using your SWD tool, flash these file at the following offsets:
+
+bootloader.bin : 0x0000
+image-x.y.z.bin : 0x8000
+Reset and voilà, you're running InfiniTime on your PineTime!
+
+https://github.com/NordicSemiconductor/Android-nRF-Toolbox
+
+
+https://pulsesensor.com/pages/nrf52-bluetooth-low-energy
+
+https://github.com/NordicSemiconductor/Android-nRF-Connect/releases/tag/version_4.28.1
+
+
+
+
+https://github.com/Dejvino/pinetime-hermes-companion-android
